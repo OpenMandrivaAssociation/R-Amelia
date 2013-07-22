@@ -10,8 +10,10 @@ License:          GPLv2+
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 Requires:         R-core >= 2.15.3 R-foreign R-utils R-Rcpp >= 0.10.0.4 R-RcppArmadillo
+Requires:         liblapack libblas
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
 BuildRequires:    R-core >= 2.15.3 R-foreign R-utils R-Rcpp >= 0.10.0.4 R-RcppArmadillo
+BuildRequires:    liblapack-devel libblas-devel
 
 %description
 Amelia II multiply imputes missing data in a single
