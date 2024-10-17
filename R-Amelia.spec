@@ -7,7 +7,7 @@ Release:          1
 Summary:          Amelia II: A Program for Missing Data
 Group:            Sciences/Mathematics
 License:          GPLv2+
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 Requires:         R-core >= 2.15.3 R-foreign R-utils R-Rcpp >= 0.10.0.4 R-RcppArmadillo
 Requires:         liblapack libblas
